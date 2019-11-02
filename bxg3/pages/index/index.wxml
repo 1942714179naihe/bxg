@@ -1,0 +1,99 @@
+ <view class="list-nav">
+    <view>
+      <image class="box-1" src="https://m.boxuegu.com/_nuxt/img/logo.4ba874d.png" />
+    </view>
+    <view>
+      <image class="box-2" src="https://m.boxuegu.com/_nuxt/img/search.f2a123d.png" />
+    </view>
+  </view>
+
+<view>
+  <image class="nav" src="https://attachment-center.boxuegu.com/data/picture/online/2019/08/28/18/410fffd082c44c1cbdbe7ee06cf521cb.jpg" />
+</view>
+<view class="icon-list list-1">
+  
+    <view>
+      <image class="icon" src="https://m.boxuegu.com/web/images/index/course.png" />
+      <text>就业课</text>
+    </view>
+     <view>
+      <image class="icon" src="https://m.boxuegu.com/web/images/index/mircoCourse.png" />
+      <text>提升课</text>
+    </view>
+     <view>
+      <image class="icon" src="https://m.boxuegu.com/web/images/index/freeMicroCourse.png" />
+      <text>免费课</text>
+    </view>
+     <view>
+      <image class="icon" src="https://m.boxuegu.com/web/images/index/courseType.png" />
+      <text>课程分类</text>
+    </view>
+ 
+</view>
+
+<view class="list-2">
+  <view class="list-nav">
+    <view>就业课</view>
+    <view>更多</view>
+  </view>
+
+  
+
+
+    <view class="list-3">
+    <view class="list-left">
+      <image src="https://file.boxuegu.com/f6c878722f394a7c9bd12c0319f00037.png" />
+    </view>
+    <view class="list-right">
+      <view class="list-right-size">JavaEE</view>
+      <view class="list-right-size2">javaEE是个开发的平台</view>
+      <view class="list-right-l">
+        <view class="list-right-x">1314人学习</view>
+        <view class="list-right-q">￥99999.00</view>
+      </view>
+    </view>
+  </view>
+
+   <view class="list-3">
+    <view class="list-left">
+      <image src="https://file.boxuegu.com/e19c53c6c1fa468aad6e11cb61d81b9a.png" />
+    </view>
+    <view class="list-right">
+      <view class="list-right-size">Python+人工智能</view>
+      <view class="list-right-size2">最有钱景的职业</view>
+      <view class="list-right-l">
+        <view class="list-right-x">1314人学习</view>
+        <view class="list-right-q">￥99999.00</view>
+      </view>
+    </view>
+  </view>
+
+   <view class="list-3">
+    <view class="list-left">
+      <image src="https://file.boxuegu.com/3940be1c755a44eeb8e2e0aaf984756e.png" />
+    </view>
+    <view class="list-right">
+      <view class="list-right-size">前端与移动开发</view>
+      <view class="list-right-size2">最有钱景的职业</view>
+      <view class="list-right-l">
+        <view class="list-right-x">1314人学习</view>
+        <view class="list-right-q">￥99999.00</view>
+      </view>
+    </view>
+  </view>
+   <view class="list-3">
+    <view class="list-left">
+      <image src="https://file.boxuegu.com/6c0ffe21a06d421d90be8a0061c14c1a.png" />
+    </view>
+    <view class="list-right">
+      <view class="list-right-size">软件测试</view>
+      <view class="list-right-size2">最有钱景的职业</view>
+      <view class="list-right-l">
+        <view class="list-right-x">1314人学习</view>
+        <view class="list-right-q">￥99999.00</view>
+      </view>
+    </view>
+  </view>
+
+
+</view>

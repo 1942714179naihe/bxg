@@ -1,0 +1,82 @@
+
+.box-1{
+  width: 164rpx;
+  height: 54rpx;
+}
+.box-2{
+  width: 52rpx;
+  height: 52rpx;
+}
+.nav {
+  width: 750rpx;
+  height: 300rpx;
+}
+
+.icon {
+  width: 100rpx;
+  height: 100rpx;
+}
+.list-1 {
+  height: 240rpx; 
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20rpx;
+}
+.list-1 view {
+  display: flex;
+  flex-direction: column;
+}
+/* 列表 */
+.list-2 {
+  margin-top: 20rpx;
+  background: #fff;
+}
+.list-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10rpx;
+}
+.list-3 {
+  display: flex;
+  margin-top: 10rpx;
+}
+.list-left {
+  width: 420rpx;
+  height: 186rpx;
+}
+.list-left image{
+  width: 100%;
+  height: 100%;
+}
+
+.list-right {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.list-right-size {
+  padding: 0px 0px 0px 10px;
+  font-size: 15px;
+}
+.list-right-size2 {
+  padding: 0px 0px 0px 10px;
+  font-size: 10px;
+  color : #82A2CA;
+}
+
+.list-right-l{
+  display: flex;
+  justify-content: space-between;
+}
+.list-right-x{
+  padding: 0px 0px 0px 10px;
+ 
+}
+.list-right-q{
+  color: red;
+ padding: 0px 0px 0px 18px;
+}
+
