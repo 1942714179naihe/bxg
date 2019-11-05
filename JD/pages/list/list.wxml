@@ -1,0 +1,45 @@
+<scroll-view class="sw" scroll-y="{{true}}"
+scroll-top="{{topNum}}"
+scroll-with-animation="{{true}}"
+bindscroll="scroll"
+>
+<view class="ding">点击筛选 <image class="" src="https://img11.360buyimg.com/jdphoto/s90x28_jfs/t1/50544/35/13798/15234/5da7cf8cEf7e5ea76/8a9fad8c8aef6121.png">
+    
+</image>活动商品 </view>
+<view class="list">
+
+<view class="list-left">
+
+    <block wx:for="{{arr}}" wx:key="arr">
+        <navigator  url="/pages/order/order" open-type="navigate">
+            
+    
+        <image class="" src="{{item.img}}" >
+            
+        </image>
+         </navigator>
+    </block>
+
+</view>
+
+
+    <view class="list-right">
+
+<block wx:for="{{arr}}" wx:key="arr">
+<!-- <image class="list-tu" src="{{item.tu}}" > </image> -->
+<view class="list-title"> {{item.title}}</view>
+<view class="list-man">{{item.man}}</view>
+<view class="list-hao">{{item.hao}}</view>
+<view class="list-dian">{{item.dian}}</view>
+
+</block>
+    </view>
+
+
+
+</view>
+</scroll-view>
+<view bind:tap="goHome" class="{{show}}">
+    <view class="iconfont icon-huidaodingbu"></view>
+
+</view>

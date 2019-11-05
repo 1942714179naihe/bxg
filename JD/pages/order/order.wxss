@@ -1,0 +1,135 @@
+
+@import '/public/style/sc.wxss';
+@import '/public/style/db.wxss';
+.tu {
+    width: 800rpx;
+    height: 800rpx;
+}
+.box {
+    width: 800rpx;
+    height: 800rpx;
+}
+.tu2{
+    width: 800rpx;
+    height: 100rpx;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    padding:0 10px ;
+}
+.box2-q{
+    color: red;
+}
+.box2 view{
+    font-size: 20px;
+}
+.box3{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.box3 image{
+    padding-left: 10px;
+}
+.tu3{
+    width: 88rpx;
+    height: 33rpx;
+}
+.tu4{
+    padding-left: 5px;
+    width: 66rpx;
+    height: 33rpx;
+}
+.box4{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #888;
+}
+.box4 a{
+    color: red;
+   
+}
+.ping {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-top: 1px solid red;
+}
+.ziti {
+    font-size: 18px;
+}
+.ziti2 {
+    font-size: 13px;
+  
+}
+.ziti i{
+    color: red;
+}
+.ping-tu{
+    width: 60rpx;
+    height: 60rpx;
+    padding-left: 10px;
+}
+.box5{
+    display: flex;
+
+}
+.ping-ziti{
+    font-size: 15px;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+
+.icon-star{
+    padding-top: 7px;
+}
+.ping-ziti2{
+    padding-top: 7px;
+    padding-left: 116px;
+    font-size: 14px;
+}
+.ping2{
+    padding-top: 7px;
+}
+.ping-tu2 image{
+    width: 150rpx;
+    height: 150rpx;
+    margin: 0px 5px;
+    padding-top: 10px;
+}
+
+.sw{
+    height: 1200rpx;
+    /* background: #abcdef; */
+    position: relative;
+}
+.hide{
+    opacity: 0;
+    transition: all .6s;
+}
+.show view{
+    opacity: 1;
+    transition: all .6s;
+    font-size: 40px;
+    position: absolute;
+    bottom: 60px;
+    right: 8px;
+}
+ .xiang{
+    position: relative;
+}
+.xiang image{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100rpx;
+    height: 100rpx;
+} 
+.xiang button{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    width: 100rpx;
+    height: 100rpx;
+}

@@ -1,0 +1,192 @@
+
+<scroll-view class="sw" scroll-y="{{true}}"
+scroll-top="{{topNum}}"
+scroll-with-animation="{{true}}"
+bindscroll="scroll"
+>
+<swiper class="box" indicator-dots="{{true}}" circular="{{true}}" current="{{current}}" bindchange="change" autoplay="{{true}}" interval="{{2000}}">
+    <view >
+        <block wx:for="{{arr}}" wx:key="arr">
+            <swiper-item >
+                <image class="tu" src="{{item.img}}"></image>
+            </swiper-item>
+        </block>
+    </view>
+</swiper>
+
+<view>
+<image class="tu2" src="https://img30.360buyimg.com/jdphoto/jfs/t1/77621/40/13428/113573/5da86d3cE9a189ee2/3d6d245ea393c962.png!q70.webp">
+    
+</image>
+</view>
+
+<!-- s商品介绍 -->
+<view>
+
+<view class="box2">
+
+<view class="box2-q">￥1899.00</view>
+<view class="iconfont icon-shoucang">收藏  </view>
+
+</view>
+
+<view class="box3">
+    <image class="tu3" src="https://img30.360buyimg.com/jdphoto/jfs/t1/75776/31/13305/900/5da86d4bEcc4c90de/e1d7f9fd9583fa14.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+        
+    </image>
+    <image class="tu4" src="https://img13.360buyimg.com/jdphoto/s48x28_jfs/t1/45124/16/1339/1092/5cf0a1ecE146f0776/df59d583faa7cfb9.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+        
+    </image>
+    OPPO K5 6GB+128GB 奇幻森林 6400万超清四摄 VOOC闪充4.0 高通骁龙730G 4G游戏智能手机
+</view>
+
+<view class="box4">
+    10.18-11.11全程价保！【领券立减100元低至1799元】高通骁龙730G，30W闪充！RenoAce至高减200元低至2999元！ 
+    <a href="#">查看</a>
+</view>
+
+</view>
+
+<!-- 评价 -->
+<view>
+
+<view class="ping">
+
+    <view class="ziti">评价 <i class="ziti2">好评 96%</i></view>
+    <view class="ziti2">共 2万+ 条  ></view>
+</view>
+
+<view class="box5">
+    <image class="ping-tu" src="https://img11.360buyimg.com/jdphoto/s40x40_jfs/t1/25255/18/10701/1678/5c89f892E78c04688/684d63c0d68e39b1.png"></image>
+    <view class="ping-ziti">
+        狗**子
+    </view>
+
+    <view class="iconfont icon-star" > 
+    </view>
+    <view class="iconfont icon-star" > 
+    </view>
+    <view class="iconfont icon-star" > 
+    </view>
+    <view class="iconfont icon-star" > 
+    </view>
+    <view class="iconfont icon-star" > 
+    </view>
+
+    <view class="ping-ziti2">
+    2019-11-4
+</view>
+</view>
+
+<view class="ping2">
+这款手机颜值很高，用了几天手感非常不错，这款手机搭载了骁龙730G 处理器，玩起游戏很顺畅，反应很快，性能很强悍，相机方面搭载了前置3200万像素后置6400万像素摄像头...
+
+</view>
+
+<view class="ping-tu2">
+    <image src="https://img30.360buyimg.com/shaidan/s128x96_jfs/t1/48841/23/14353/144801/5db2b7ecEf08d5b87/5f3f9bbd60c6f4e9.jpg!cc_100x100!q70.dpg.webp"></image>
+    <image src="https://img30.360buyimg.com/shaidan/s128x96_jfs/t1/71360/40/13825/175405/5db2b7ecE77e0a653/6e03e597366eda3d.jpg!cc_100x100!q70.dpg.webp"></image>
+    <image src="https://img30.360buyimg.com/shaidan/s128x96_jfs/t1/85371/22/729/150104/5db2b7edE3205bf39/0b3b1316cf52af17.jpg!cc_100x100!q70.dpg.webp"></image>
+    <image src="https://img30.360buyimg.com/shaidan/s128x96_jfs/t1/49377/36/14334/34438/5db2b7edE91055416/ce67df323475bb7d.jpg!cc_100x100!q70.dpg.webp"></image>
+</view>
+
+</view>
+
+<view>
+
+<view class="ping">
+
+    <view class="ziti">评价 <i class="ziti2">好评 96%</i></view>
+    <view class="ziti2">共 2万+ 条  ></view>
+</view>
+
+<view class="box5">
+    <image class="ping-tu" src="https://img11.360buyimg.com/jdphoto/s40x40_jfs/t1/25255/18/10701/1678/5c89f892E78c04688/684d63c0d68e39b1.png"></image>
+    <view class="ping-ziti">
+        狗**子
+    </view>
+
+    <view class="iconfont icon-star" > 
+    </view>
+    <view class="iconfont icon-star" > 
+    </view>
+    <view class="iconfont icon-star" > 
+    </view>
+    <view class="iconfont icon-star" > 
+    </view>
+    <view class="iconfont icon-star" > 
+    </view>
+
+    <view class="ping-ziti2">
+    2019-11-4
+</view>
+</view>
+
+<view class="ping2">
+这款手机颜值很高，用了几天手感非常不错，这款手机搭载了骁龙730G 处理器，玩起游戏很顺畅，反应很快，性能很强悍，相机方面搭载了前置3200万像素后置6400万像素摄像头...
+
+</view>
+
+<view class="ping-tu2">
+    <image src="https://img30.360buyimg.com/shaidan/s128x96_jfs/t1/48841/23/14353/144801/5db2b7ecEf08d5b87/5f3f9bbd60c6f4e9.jpg!cc_100x100!q70.dpg.webp"></image>
+    <image src="https://img30.360buyimg.com/shaidan/s128x96_jfs/t1/71360/40/13825/175405/5db2b7ecE77e0a653/6e03e597366eda3d.jpg!cc_100x100!q70.dpg.webp"></image>
+    <image src="https://img30.360buyimg.com/shaidan/s128x96_jfs/t1/85371/22/729/150104/5db2b7edE3205bf39/0b3b1316cf52af17.jpg!cc_100x100!q70.dpg.webp"></image>
+    <image src="https://img30.360buyimg.com/shaidan/s128x96_jfs/t1/49377/36/14334/34438/5db2b7edE91055416/ce67df323475bb7d.jpg!cc_100x100!q70.dpg.webp"></image>
+</view>
+
+</view>
+
+<view>
+
+<view class="ping">
+
+    <view class="ziti">评价 <i class="ziti2">好评 96%</i></view>
+    <view class="ziti2">共 2万+ 条  ></view>
+</view>
+
+<view class="box5">
+    <image class="ping-tu" src="https://img11.360buyimg.com/jdphoto/s40x40_jfs/t1/25255/18/10701/1678/5c89f892E78c04688/684d63c0d68e39b1.png"></image>
+    <view class="ping-ziti">
+        狗**子
+    </view>
+
+    <view class="iconfont icon-star" > 
+    </view>
+    <view class="iconfont icon-star" > 
+    </view>
+    <view class="iconfont icon-star" > 
+    </view>
+    <view class="iconfont icon-star" > 
+    </view>
+    <view class="iconfont icon-star" > 
+    </view>
+
+    <view class="ping-ziti2">
+    2019-11-4
+</view>
+</view>
+
+<view class="ping2">
+这款手机颜值很高，用了几天手感非常不错，这款手机搭载了骁龙730G 处理器，玩起游戏很顺畅，反应很快，性能很强悍，相机方面搭载了前置3200万像素后置6400万像素摄像头...
+
+</view>
+
+<view class="ping-tu2">
+    <image src="https://img30.360buyimg.com/shaidan/s128x96_jfs/t1/48841/23/14353/144801/5db2b7ecEf08d5b87/5f3f9bbd60c6f4e9.jpg!cc_100x100!q70.dpg.webp"></image>
+    <image src="https://img30.360buyimg.com/shaidan/s128x96_jfs/t1/71360/40/13825/175405/5db2b7ecE77e0a653/6e03e597366eda3d.jpg!cc_100x100!q70.dpg.webp"></image>
+    <image src="https://img30.360buyimg.com/shaidan/s128x96_jfs/t1/85371/22/729/150104/5db2b7edE3205bf39/0b3b1316cf52af17.jpg!cc_100x100!q70.dpg.webp"></image>
+    <image src="https://img30.360buyimg.com/shaidan/s128x96_jfs/t1/49377/36/14334/34438/5db2b7edE91055416/ce67df323475bb7d.jpg!cc_100x100!q70.dpg.webp"></image>
+</view>
+
+</view>
+</scroll-view>
+
+<view bind:tap="goHome" class="{{show}}">
+    <view class="iconfont icon-huidaodingbu"></view>
+
+</view>
+
+<view class="xiang">
+    <image src="https://wx.1314000.cn/share.png"></image>
+    <button open-type="share" type="primary">享</button>
+</view>
